@@ -5,9 +5,31 @@
   margin:0px;
   padding:0px;
   text-align: center;
+  /* background-color: rgb(102, 255, 255); */
+  border: 10px solid black;
   background-image: url("img/knit_sample.jpg");
   background-repeat: no-repeat;
   background-position: left top;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-around;
+  width: 100%;
+  flex-align: center;
+  margin: 20px auto;
+}
+.flex-box {
+  padding: 10px;
+  border: 1px solid black;
+}
+.service {
+  width: 20%;
+}
+a {
+  /* text-decoration: none; */
+  font-family: 'special elite'
+  /* text-size: 30px; */
 }
 .left{
   float:left;
@@ -15,7 +37,7 @@
 h1{
   font-weight: 500;
   font-size: 100px;
-  color: rgb(0, 0, 0)
+  color: rgb(0, 102, 102);
 }
 h2{
   font-weight: 300;
