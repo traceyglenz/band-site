@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700|Special+Elite');
 
 img.knit_sample {
-  /* Set rules to fill background */
+  /* This series of codes, all the way down to pagewrap, comes from css-tricks.com to set the background image. Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
 
@@ -55,6 +55,7 @@ img.knit_sample {
 .flex-box {
   padding: 10px;
   border: 1px solid black;
+  color: rgb(38, 236, 52);
 }
 .service {
   width: 20%;
@@ -63,9 +64,6 @@ a {
   /* text-decoration: none; */
   font-family: 'special elite'
   /* text-size: 30px; */
-}
-.left{
-  float:left;
 }
 h1{
   font-weight: 500;
