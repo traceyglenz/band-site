@@ -1,77 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700|Special+Elite');
 
-img.knit_sample {
-  /* This series of codes, all the way down to pagewrap, comes from css-tricks.com to set the background image. Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+html {
+  background: url("../img/knit_sample.jpg") left top repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.knit_sample {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-  #page-wrap {
-    position: relative;
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    -moz-box-shadow: 0 0 20px black;
-    -webkit-box-shadow: 0 0 20px black;
-    box-shadow: 0 0 20px black;
-  }
-  p {
-    font: 15px/2 Special elite, Serif;
-    margin: 0 0 30px 0;
-    text-indent: 40px;
-  }
 
   h1, h2, h3, h4 {
     font-family:'Montserrat Alternates', sans-serif;
-    /* margin:0 0 30px 0; */
-    color: white;
-    /* padding:0px; */
-    /* text-indent: 40px; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
-}.flex-container {
+.flex-container {
   display: flex;
   flex-flow: row no-wrap;
   justify-content: space-around;
   width: 100%;
   flex-align: center;
   margin: 20px auto;
+  border: 1px solid black;
+  background-color: rgba(38, 236, 52,0.5);
 }
 .flex-box {
   padding: 10px;
-  border: 1px solid black;
-  color: rgb(38, 236, 52);
 }
 .service {
   width: 20%;
 }
 a {
   /* text-decoration: none; */
-  font-family: 'special elite'
-  /* text-size: 30px; */
+  font-family: 'special elite';
+  text-decoration: none;
+  color: rgb(0, 51, 102);
+  font-weight: bold;
 }
 h1{
   font-weight: 500;
-  font-size: 100px;
-  color: rgb(0, 102, 102);
+  font-size: 200px;
+  color: rgba(38, 236, 52,1);
 }
 h2{
   font-weight: 300;
-  font-size: 50px;
+  font-size: 100px;
   color: rgb(0, 51, 102);
+}
+p{
+  font-family: 'Special-Elite:400', serif;
+  color: white;
 }
