@@ -34,21 +34,30 @@ html {
 a {
   /* text-decoration: none; */
   font-family: 'special elite';
-  text-decoration: none;
-  color: rgb(0, 51, 102);
+  font-size: 30px;
   font-weight: bold;
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+a:hover{
+  background-color: pink;
 }
 h1{
   font-weight: 500;
-  font-size: 200px;
-  color: rgba(38, 236, 52,1);
+  font-size: 150px;
+  color: white;
 }
 h2{
   font-weight: 300;
   font-size: 100px;
-  color: rgb(0, 51, 102);
+  color: white;
 }
 p{
-  font-family: 'Special-Elite:400', serif;
+  font-family: 'special elite', serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 60px 0 60px;
   color: white;
 }
